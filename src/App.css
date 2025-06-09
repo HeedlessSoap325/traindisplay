@@ -1,0 +1,86 @@
+.info-section{
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.anzeige{
+  color: white;
+  background-color: #204677;
+  font-family: "Courier New", serif;
+  max-width: 100%;
+  padding: 1em 1em;
+  text-align: left;
+}
+.time{
+  color: white;
+  min-width: 4em;
+  max-width: 4em;
+  display: inline-block;
+  padding: 2px 20px;
+  text-decoration: underline;
+}
+.time.head {
+  font-weight: normal;
+}
+.train-number{
+  color: white;
+  min-width: 9em;
+  max-width: 9em;
+  display: inline-block;
+  font-weight: bold;
+}
+.train-number.body {
+  background-color: #B21A27;
+  font-family: "Courier New", serif;
+  display: inline-block;
+  padding-bottom: 2px;
+  font-weight: bold;
+}
+.destination{
+  color: white;
+  min-width: 15em;
+  max-width: 15em;
+  display: inline-block;
+  padding-left: 20px;
+  text-decoration: underline;
+}
+.destination.head {
+  font-weight: normal;
+}
+.platform{
+  color: white;
+  min-width: 4em;
+  max-width: 4em;
+  display: inline-block;
+  padding: 2px 5px;
+  text-decoration: underline;
+}
+.platform.head {
+  font-weight: normal;
+}
+.delay{
+  color: white;
+  min-width: 4em;
+  max-width: 4em;
+  display: inline-block;
+  padding: 2px 5px;
+  text-decoration: underline;
+}
+.delay.head {
+  font-weight: normal;
+}
+.anzeige-table{
+  margin-bottom: 20px;
+}
+.button {
+  color: black;
+  background-color: white;
+  display: inline-block;
+}
+.disclaimer {
+  color: gray;
+  background-color: #204677;
+  max-width: 100%;
+}

@@ -1,0 +1,15 @@
+[data-theme="light"] {
+    --text-color: black;
+    --bg-color: white;
+}
+
+[data-theme="dark"] {
+    --text-color: white;
+    --bg-color: #282727;
+}
+body{
+    margin: 0;
+}
+#root{
+    background-color: var(--bg-color);
+}
